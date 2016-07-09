@@ -1,6 +1,6 @@
 #import "AppDelegate.h"
-#import <CocoaLumberjack/CocoaLumberjack.h>
-#import <CocoaLumberjack/DDTTYLogger.h>
+#import "CocoaLumberjack.h"
+#import "DDTTYLogger.h"
 
 // Log levels: off, error, warn, info, verbose
 static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
@@ -8,7 +8,7 @@ static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
 
 @implementation AppDelegate
 
-@synthesize window = _window;
+//@synthesize window = _window;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
